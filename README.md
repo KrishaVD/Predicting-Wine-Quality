@@ -1,9 +1,11 @@
 # Wine_Quality
 
-In this project, I wanted to predict the quality of wine; I created two groups labelling them as "good" and "bad" and I set up to bins to classify them into. If the quality of the wine is between 7 and 8, it is labelled as "good" wine but if it is below 7, then it is labelled as "bad" wine. 
+In this project, I wanted to predict the quality of wine by training the data; I created two groups labelling them as "good" and "bad" and I set up bins to classify them into either of the groups. If the quality feature of the wine is between 7 and 8, it is labelled as "good" wine but if it is below 7, then it is labelled as "bad" wine. 
 
-I have kept the bins spread quite high (making only the quality with 7s and 8s to be labelled as the "good" wine but it can be altered if you wish). I have used Matplotlib and Seaborn to get a good picture of how much of the "good" and "bad" wine present in the dataset.
+I then used Matplotlib and Seaborn to get a good picture of how much of the "good" and "bad" wine is present in the dataset(there are 1382 labelled to be 0 thus "bad" and 217 labelled to be 1 thus "good). 
 
-After seperating the features I want to use to predict the quality of the wine and then the quality of the wine itself, 
+The, I used the train_test_split package to split the data into testing and training data, keeping the test size to be 20% of the overall data. Since the values are also quite ranged with some very large and small values, I have used the Standard scaler package to fit and transform the data so we can get optimised results. 
 
-Random Forest Classification Model in ML to predict whether a certain is "good" or "bad" by creating bins. 
+Finally, I used the Random Forest Classification Model for the training and prediction using 200 forests. To see how well my model has performed at the end, I ran the classification report and the confusion matrix as well to compare the actualy y_test values with the predicted rfc_values. 
+
+
