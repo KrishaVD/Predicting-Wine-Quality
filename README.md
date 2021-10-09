@@ -1,6 +1,6 @@
 # Wine_Quality
 
-In this project, I wanted to predict the quality of wine by training the data; I created two groups labelling them as "good" and "bad" and I set up bins to classify them into either of the groups. If the quality feature of the wine is between 7 and 8, it is labelled as "good" wine but if it is below 7, then it is labelled as "bad" wine. 
+In this project, I wanted to predict the quality of wine by training the data; I created two groups labelling them as "good" and "bad" and I set up bins to classify them into either of the groups. There is a quality feature in the dataset which ranges from 3 to 8 and I decided that if the quality feature of the wine is between 7 and 8, it is labelled as "good" wine but if it is anything below 7, then it is labelled as "bad" wine. 
 
 I then used Matplotlib and Seaborn to get a good picture of how much of the "good" and "bad" wine is present in the dataset(there are 1382 labelled to be 0 thus "bad" and 217 labelled to be 1 thus "good). 
 
