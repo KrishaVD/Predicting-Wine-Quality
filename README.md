@@ -1,4 +1,4 @@
-# Wine_Quality
+# Predicting the Quality of Wine using Machine Learning (Random Forest Classification)
 
 In this project, I wanted to predict the quality of wine by training the data; I created two groups labelling them as "good" and "bad" and I set up bins to classify them into either of the groups. There is a quality feature in the dataset which ranges from 3 to 8 and I decided that if the quality feature of the wine is between 7 and 8, it is labelled as "good" wine but if it is anything below 7, then it is labelled as "bad" wine. 
 
